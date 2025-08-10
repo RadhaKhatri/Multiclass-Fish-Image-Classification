@@ -31,7 +31,7 @@ A deep learning project for classifying fish images into multiple categories usi
 ## ⚙️ Installation
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/fish-classification.git
+git clone https://github.com/RadhaKhatri/Multiclass-Fish-Image-Classification/tree/main
 cd fish-classification
 Create and activate virtual environment (optional but recommended)
 
