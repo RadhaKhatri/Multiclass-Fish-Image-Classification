@@ -35,16 +35,10 @@ git clone https://github.com/RadhaKhatri/Multiclass-Fish-Image-Classification/tr
 cd fish-classification
 Create and activate virtual environment (optional but recommended)
 
-bash
-Copy
-Edit
 conda create -n fishenv python=3.9
 conda activate fishenv
 Install dependencies
 
-bash
-Copy
-Edit
 pip install -r requirements.txt
 📊 Dataset
 The dataset contains fish images organized in folders by category and split into:
@@ -72,9 +66,6 @@ data/
 🚀 Training the Model
 Run the Jupyter Notebook:
 
-bash
-Copy
-Edit
 jupyter notebook
 Open fish_classifier.ipynb and execute the cells:
 
@@ -89,8 +80,7 @@ Phase 4: Deployment (optional)
 🧪 Testing the Model
 Single Image Prediction
 python
-Copy
-Edit
+
 from tensorflow.keras.preprocessing import image
 import numpy as np
 
@@ -126,16 +116,12 @@ F1-score	0.90
 🌐 Deployment
 To run the Streamlit app locally:
 
-bash
-Copy
-Edit
 streamlit run streamlit_app/app.py
 📜 Requirements
 See requirements.txt:
 
 nginx
-Copy
-Edit
+
 tensorflow
 pillow
 numpy
